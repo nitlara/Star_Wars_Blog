@@ -3,8 +3,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
+import { Characters } from "./views/characters";
 import { Single } from "./views/single";
+import { Planets } from "./views/planets";
+import { Battleships } from "./views/battleships";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
