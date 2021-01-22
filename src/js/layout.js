@@ -24,24 +24,18 @@ const Layout = () => {
 				<ScrollToTop>
 					<Navbar />
 					<Switch>
-						<Route exact path="/">
-							<Home />
-						</Route>
-						<Route exact path="/home">
-							<Home />
-						</Route>
-						<Route exact path="/characters">
-							<Characters />
-						</Route>
-						<Route exact path="/planets">
-							<Planets />
-						</Route>
-						<Route exact path="/battleships">
-							<Battleships />
-						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
-						</Route>
+						<Route exact path="/" component={Home} />
+
+						<Route exact path="/home" component={Home} />
+
+						<Route exact path="/characters" component={Characters} />
+
+						<Route exact path="/planets" component={Planets} />
+
+						<Route exact path="/battleships" component={Battleships} />
+
+						<Route exact path="/single/:theid" component={Single} />
+
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
