@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 //import { Link } from "react-router-dom";
 import { Character } from "../component/character";
 import { Context } from "../store/appContext";
 import { Carousel, Card, Button, ScrollSpy } from "bootstrap";
 
-export const Characters = (props) => {
+export const Characters = props => {
 	const [characters, setCharacters] = useState([]);
 
 	useEffect(() => {
@@ -16,7 +16,7 @@ export const Characters = (props) => {
 				setCharacters(data.results);
 			});
 	}, []);
-    
+
 	return (
 		<Carousel>
 			<ScrollSpy>
