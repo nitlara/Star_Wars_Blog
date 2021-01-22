@@ -9,9 +9,8 @@ export const Navbar = () => {
 			</Link>
 			<div className="ml-auto">
 				<Link to="/demo">
-					<button className="btn btn-primary mx-5 badge badge-primary badge-pill">
-						Favourites
-						<span className="badge badge-primary badge-pill">14</span>
+					<button className="btn btn-primary mx-5">
+						Favourites <span className="badge badge-info badge-pill">5</span>
 					</button>
 				</Link>
 			</div>
