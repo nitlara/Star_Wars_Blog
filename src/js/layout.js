@@ -25,17 +25,11 @@ const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-
 						<Route exact path="/home" component={Home} />
-
 						<Route exact path="/characters" component={Characters} />
-
 						<Route exact path="/planets" component={Planets} />
-
 						<Route exact path="/battleships" component={Battleships} />
-
 						<Route exact path="/single/:theid" component={Single} />
-
 						<Route>
 							<h1>Not found!</h1>
 						</Route>

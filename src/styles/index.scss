@@ -1,3 +1,7 @@
-/* 
-    General Styles
-*/
+@import "_fonts.scss";
+@import "_colors.scss";
+
+.logo {
+    max-width: 10rem;
+    max-height: 8rem;
+}
